@@ -6,27 +6,16 @@
         224,
         3
     ],
-    "num_classes": 19,
+    "num_classes": 8,
     "class_names": [
-        "0",
-        "1",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
+        "Anger",
+        "Contempt",
+        "Disgust",
+        "Fear",
+        "Happy",
+        "Neutral",
+        "Sad",
+        "Surprised"
     ],
     "preprocessing": {
         "resize": [
@@ -55,10 +44,10 @@
         "epochs": 20
     },
     "performance": {
-        "test_accuracy": 100.0,
-        "test_precision": 100.0,
-        "test_recall": 100.0,
-        "test_f1_score": 100.0
+        "test_accuracy": 0.0,
+        "test_precision": 0.0,
+        "test_recall": 0.0,
+        "test_f1_score": 0.0
     },
     "training_date": "2024",
     "framework": "PyTorch"
